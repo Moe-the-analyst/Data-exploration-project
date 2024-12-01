@@ -7,7 +7,7 @@ FROM layoffs;
 -- 1. REMOVE DUPLICATES 
 -- 2. STANDARDIZE THE DATA 
 -- 3. NULL VALUES OR BANK VALUES
--- 4. REMOVE ANY COLUMNS 
+-- 4. REMOVE ANY IRRELEVANT COLUMNS 
 
 
 
@@ -44,21 +44,6 @@ WHERE row_num > 1;
 SELECT * 
 FROM layoffs_staging 
 WHERE company = 'Casper' ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
